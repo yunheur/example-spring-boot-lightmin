@@ -17,10 +17,14 @@ repositories {
 
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+	implementation("com.github.ulisesbocchio:jasypt-spring-boot-starter:3.0.3")
 	implementation("org.tuxdevelop:spring-batch-lightmin-server-standalone:2.2.1")
+	implementation("org.tuxdevelop:spring-batch-lightmin-server-scheduler-repository-jdbc:2.2.1")
+	runtimeOnly("mysql:mysql-connector-java")
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
