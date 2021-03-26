@@ -4,8 +4,9 @@
 
 
 ### Meta-Data Schema
-- server
+- server 
   - lightmin 서버에서 사용하는 테이블 생성
+    - https://github.com/tuxdevelop/spring-batch-lightmin/blob/07e3a087e9e339b0a6313cc6e9e6aa24c9267bf6/spring-batch-lightmin-server/spring-batch-lightmin-server-scheduler/spring-batch-lightmin-server-scheduler-repository/spring-batch-lightmin-server-scheduler-repository-jdbc/src/main/resources/org/tuxdevelop/spring/batch/lightmin/server/scheduler/repository/scheduler_schema_mysql.sql
     ```
     CREATE TABLE SCHEDULER_CONFIGURATION
     (
